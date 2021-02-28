@@ -1,0 +1,31 @@
+.card {
+  margin: auto;
+  border-radius: 10px;
+  overflow: auto;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  width: 300px;
+  height: 400px;
+  margin: 20px 20px;
+  background-color: ivory;
+}
+
+.card > img {
+  display: block;
+  object-fit: fill;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  width: 100%;
+  max-width: 250px;
+  max-height: 220px;
+  height: 65%;
+}
+.card:hover {
+  opacity: 0.8;
+  transition: transform 100ms ease-in;
+  transform: scale(1.02);
+}
+.card_info {
+  text-align: center;
+}

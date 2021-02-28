@@ -1,0 +1,8 @@
+.filer_search {
+  padding-left: 10px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  min-height: fit-content;
+  max-height: 300px;
+  margin-top: 2px;
+}

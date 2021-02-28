@@ -1,0 +1,56 @@
+.home_card {
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+  background-color: blanchedalmond;
+}
+.home_filter {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 20px;
+}
+.home_filters {
+  margin-top: 0px;
+  padding: 1%;
+}
+.home__button {
+  margin-top: 1rem !important;
+}
+
+.home_button {
+  width: 100px;
+  height: 20px;
+}
+.home_priceRange {
+  margin: 15px;
+  padding: 20px;
+}
+
+.pagination_home {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.home_card button {
+  margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .home_filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .home_card {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.input_home {
+  display: flexbox;
+  margin-bottom: 1rem;
+}
