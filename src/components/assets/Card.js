@@ -2,7 +2,6 @@ import React from "react";
 import "../css/Card.css";
 
 const Card = ({ img, title, price, quantity, id, handleModal }) => {
-  console.log(title);
   return (
     <div>
       <div className="card" onClick={() => handleModal(id)}>

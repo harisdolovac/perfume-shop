@@ -33,8 +33,6 @@ export default function ShopModal({
 }) {
   const classes = useStyles();
 
-  //{openModal,setOpenModal}
-
   const handleClose = () => {
     setOpenModal(false);
   };

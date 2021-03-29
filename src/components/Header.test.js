@@ -1,9 +1,8 @@
 import React from "react";
 import { shallow } from "enzyme";
 import Header from "./Header";
-import BasketIcon from "./assets/BasketIcon";
 
-describe("<Home />", () => {
+describe("<Header />", () => {
   let wrapper;
   beforeEach(() => {
     wrapper = shallow(<Header />);
@@ -21,7 +20,6 @@ describe("<Home />", () => {
 
   it("should correctly update amount on filter change event", () => {
     const BasketIcon = wrapper.find("BasketIcon");
-    // BasketIcon.props().onChange("500");
 
     expect(BasketIcon).toBeTruthy();
   });
